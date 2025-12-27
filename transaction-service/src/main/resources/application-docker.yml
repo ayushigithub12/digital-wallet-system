@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap-servers: kafka:9092
+
+wallet-service:
+  ribbon:
+    listOfServers: wallet-service:8088
